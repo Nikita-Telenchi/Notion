@@ -1,12 +1,7 @@
 import React, { FC } from "react";
 import s from "./RowS.module.css";
-
-type User = {
-	full_name: string;
-	department: string;
-	country: string;
-	status: string;
-};
+import { User } from "../../features/Users/usersSilce";
+import ImgTrash  from "./../../assets/trach.svg"
 
 const Row = ({ user }: { user: User }) => {
 	return (
@@ -15,7 +10,7 @@ const Row = ({ user }: { user: User }) => {
 			<span className={s.item__department}>{user.department}</span>
 			<span className={s.item__country}>{user.country}</span>
 			<span className={s.item__status}>{user.status}</span>
-			<span className={s.item__button}></span>
+			<img className={s.img} onClick={() => alert("Hello "+ user.id)} src={ImgTrash} alt={"trach img"}/>
 		</div>
 	);
 };
