@@ -1,0 +1,27 @@
+
+.title_for_users{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1.9444vw 2.5vw 2.2222vw 2.5vw;
+    letter-spacing: 0.2px;
+}
+
+.item__full_name{
+    width: 13.8888vw;
+}
+.item__department{
+    width: 28.0555vw;
+    color: #5E626B;
+}
+.item__country{
+    width: 13.8888vw;
+    color: #5E626B;
+}
+.item__status{
+    width: 6.9444vw;
+    color: #5E626B;
+}
+.item__button{
+    width: 1.6666vw;
+}

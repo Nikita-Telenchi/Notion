@@ -1,0 +1,7 @@
+.button{
+    border: 1px solid #c4c4c4;
+    width: 200px;
+    font-family: "Rubik";
+    padding: 14px 0;
+    cursor: pointer;
+}

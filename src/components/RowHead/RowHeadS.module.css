@@ -1,0 +1,27 @@
+
+.title_for_users{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 28px 36px;
+    border-bottom: 1px solid #E3E8EE;
+    letter-spacing: 0.4px;
+   
+}
+
+.item__full_name{
+    width: 13.8888vw;
+}
+.item__department{
+    width: 28.0555vw;
+}
+.item__country{
+    width: 13.8888vw;
+}
+.item__status{
+    width: 6.9444vw;
+}
+
+.item__button{
+    width: 1.6666vw;
+}
